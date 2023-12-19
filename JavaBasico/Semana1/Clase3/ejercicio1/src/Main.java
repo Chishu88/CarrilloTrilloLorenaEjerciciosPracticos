@@ -15,9 +15,9 @@ public class Main {
         d) Intenta obtener la marca del electrodoméstico creado sin parámetros. ¿Se obtiene algún valor? De ser así… ¿Qué valor se obtiene?*/
 
         Electrodomestico electrodomestico1 = new Electrodomestico();
-        Electrodomestico electrodomestico2 = new Electrodomestico("Phillips", "Calefactor", "1200w");
-        Electrodomestico electrodomestico3 = new Electrodomestico("Cecotec", "Plancha", "1400w");
-        Electrodomestico electrodomestico4 = new Electrodomestico("LG", "Frigorífico", "600w");
+        Electrodomestico electrodomestico2 = new Electrodomestico("1234", "Phillips", "aspirador", "1200w", "Negro");
+        Electrodomestico electrodomestico3 = new Electrodomestico("1547", "Cecotec", "batidora", "1400w", "Blanco");
+        Electrodomestico electrodomestico4 = new Electrodomestico("1547","LG", "televisor", "600w", "Gris");
 
 
         System.out.println("Electrodoméstico 2: " + electrodomestico2.getMarca() + ", " + electrodomestico2.getModelo() + ", " + electrodomestico2.getConsumo());

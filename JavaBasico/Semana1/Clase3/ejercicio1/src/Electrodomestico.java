@@ -10,10 +10,12 @@ public class Electrodomestico {
 
     }
 
-    public Electrodomestico(String marca, String modelo, String consumo) {
+    public Electrodomestico(String codigo, String marca, String modelo, String consumo, String color) {
+        this.codigo = codigo;
         this.marca = marca;
         this.modelo = modelo;
         this.consumo = consumo;
+        this.color = color;
     }
 
     public String getCodigo() {
