@@ -16,11 +16,11 @@ public class Main {
         // Crear vector de 5 posiciones
         Persona[] persona = new Persona[5];
 
-        persona[0] = new Persona("Lorena", 25);
-        persona[1] = new Persona("Rafa", 38);
-        persona[2] = new Persona("Miriam", 27);
-        persona[3] = new Persona("Diederik", 39);
-        persona[4] = new Persona("Eloisa", 58);
+        persona[0] = new Persona(1, "Lorena", "Calle Jaen", 25, "654897852");
+        persona[1] = new Persona(2, "Rafa", "Calle Priego", 38, "521458796");
+        persona[2] = new Persona(3, "Miriam", "Calle Castro", 27, "547852145");
+        persona[3] = new Persona(4, "Diederik", "Calle Breda", 39, "521458796");
+        persona[4] = new Persona(5, "Eloisa", "Calle Córdoba", 58, "54125874");
 
         for(int i = 0; i < persona.length; i++) {
             if (persona[i] != null) {
