@@ -21,13 +21,10 @@ public class Ejercicio2 {
         //persistenceController.createDish(dish5);
         
         dish4.setPrice(14.00);
-        persistenceController.deleteDish(5L);
+        /*persistenceController.deleteDish(5L);
         persistenceController.deleteDish(2L);
-        persistenceController.deleteDish(3L);
-        persistenceController.deleteDish(4L); 
-        persistenceController.deleteDish(10L); 
-        persistenceController.deleteDish(11L); 
-        persistenceController.deleteDish(12L); 
+        persistenceController.deleteDish(3L);*/
+  
      
         List<Dish> allDishes = persistenceController.getAllDishes();
 
