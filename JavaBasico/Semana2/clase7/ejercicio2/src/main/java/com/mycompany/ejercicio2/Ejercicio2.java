@@ -23,11 +23,11 @@ public class Ejercicio2 {
     
         
         
-        /*dish5.setId(9L);
+        dish5.setId(9L);
         dish5.setName("pizza2");
         dish5.setRecipe("Nueva receta pizza");
         dish5.setPrice(15.00);
-        persistenceController.updateDish(dish5);*/
+        persistenceController.updateDish(dish5);
         /*persistenceController.deleteDish(2L);
         persistenceController.deleteDish(3L);
         persistenceController.deleteDish(4L);*/
